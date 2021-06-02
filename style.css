@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.font_head{
+    font-family: 'Salsa', cursive;
+    font-size: 18px;
+}
+#about-section{
+    height: 465px;
+}
+.art1{
+    width: 100%;
+    height: 554px;
+    background-color: black;
+}
+#about-section{
+    height: 490px;
+}
+.text_head{
+    width: 100%;
+    height: 220px;
+    background-color: rgba(219, 190, 155, 0);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 20px;
+}
+
+.div_Labels{
+    width: 70%;
+    height: 300px;
+    background-color: white;
+}
+
+.divcer{
+    width: 100%;
+    height: 540px;
+    display: flex;
+
+}
+.cont img{
+    width: 5%;
+    height: 40px;
+}
+#contact-section{
+    transition: 2s;
+}
+#a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+  }
+  
+#p {
+    font-weight: 700;
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Salsa', cursive;
+    text-transform: uppercase;
+    background: linear-gradient(90deg, #000, #fff, #000);
+    letter-spacing: 5px;
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-repeat: no-repeat;
+    background-size: 80%;
+    animation: ali_safaa 10s linear infinite;
+    position: relative;
+  }
+  
+  @keyframes ali_safaa {
+    0% {
+      background-position-x: -500%;
+    }
+    50%{
+        background-position-x: -100%;
+    }
+    100% {
+      background-position-x: 500%;
+    }
+  }
+@media screen and (min-width:700px) and (max-width:845px){
+    .cont img{
+        width: 35px;
+        height: 40px;
+    }
+}
+@media screen and (max-width:699px) and (min-width:400px){
+    .cont img{
+        width: 35px;
+        height: 40px;
+    }
+ 
+}
+@media screen and (max-width:399px) and (min-width:320px){
+    .cont img{
+        width: 45px;
+        height: 40px;
+    }
+ 
+}
